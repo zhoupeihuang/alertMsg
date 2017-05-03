@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+	</head>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/alertMSG.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		$(function() {
+			$(".aa").click(function() {
+				$(this).alertMsg({
+					texts: '迷雾迷雾在迷雾，我惊觉自己在原地踏步',//弹出的提示文字
+			        fcolor: 'white',//字体颜色
+			        bgcolor:'black',//背景颜色
+			        fsize:'16px',//字体大小
+			        heights:"60px",//高度
+			        widths:"200px",//宽度
+			        opacity:'80',//透明度
+			        times:'1000'//自动关闭时长
+				})
+				
+			
+		})
+			$("#bb").click(function() {
+					$(this).alertMsg({
+						texts: 'bb，bb',//弹出的提示文字
+				        fcolor: 'white',//字体颜色
+				        bgcolor:'black',//背景颜色
+				        fsize:'16px',//字体大小
+				        heights:"60px",//高度
+				        widths:"200px",//宽度
+				        opacity:'80',//透明度
+				        times:'1000'//自动关闭时长
+					})
+				})
+		})
+		
+	</script>
+
+	<body  >
+	<div class="aa" style="border: 1px red dashed;">
+		你总说爱情之所以为爱情 是用来挥霍<br />
+		你总是漫不在乎 当我看著自己的稀薄<br />
+		你编织的感觉难以捉摸<br />
+		你比我的梦境还困惑<br />
+	</div>
+	
+	<p id="bb" style="border: 1px red dashed;">风筝有风
+		海豚有海<br />
+		我存在 在 你的存在<br />
+	</p>
+	</body>
+
+</html>
